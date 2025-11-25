@@ -1,0 +1,75 @@
+# --- Node ---
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# --- Build ---
+dist
+build
+.cache
+.tmp
+.cache
+
+# --- Environment  Secrets ---
+.env
+.env. 
+!.env.example
+
+# --- Logs ---
+logs
+.log
+.log.
+debug.log
+.pid
+.seed
+.pid.lock
+
+# --- System Files (Windows  Mac) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor ---
+.vscode
+.idea
+.swp
+.swo
+
+# --- Test coverage ---
+coverage
+.lcov
+
+# --- Compiled ---
+.exe
+.dll
+.class
+
+# --- React Specific ---
+# CRA generates these
+.eslintcache
+.cache-loader
+
+# --- Project Assets ---
+# Garder tes images dans src
+# Ne PAS ignorer images du projet !
+# publicimages peut contenir des fichiers pour build
+# Si tu veux ignorer d'autres fichiers lourds 
+# publictemp
+# srcassetsraw
+
+# --- Python Virtual Environment (tu as un .venv dans ton prompt) ---
+.venv
+env
+venv
+__pycache__
+
+# --- GitHub ---
+# Ignorer les fichiers locaux
+.orig
+
+# --- Archives ---
+.zip
+.rar
+.7z
