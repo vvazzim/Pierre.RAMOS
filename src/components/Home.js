@@ -5,7 +5,7 @@ export default function Home() {
     <section className="home-page">
       <div
         className="hero-image"
-        style={{ backgroundImage: 'url("/images/2.JPG")' }}
+        style={{ backgroundImage: 'url("/images/9.JPG")' }}
       >
         <div className="hero-overlay">
           <p className="hero-intro">Welcome to my muse</p>
